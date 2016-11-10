@@ -1,0 +1,26 @@
+alias ex=exit
+alias re=reload
+alias rep=reload plugins
+alias rer=reload return
+alias up=update
+alias ru=;reload;update
+alias co=compile
+alias tc=test:compile
+alias ca=;co;tc;ttc
+alias ttc=tests/test:compile
+alias cc = ~ ;eval "\u001B[2J\u001B[0\u003B0H" ;compile
+alias clear=eval "\u001B[2J\u001B[0\u003B0H"
+alias cls=clear
+alias dep=set libraryDependencies +=
+alias tq=testQuick
+alias tt=test
+alias to=testOnly
+alias tto=tests/testOnly
+alias cl=clean
+alias jar=package
+alias rebuild=clean;compile
+alias reb=clean;compile
+alias cd=project
+alias cds=projects
+alias cq=consoleQuick
+alias con=console
