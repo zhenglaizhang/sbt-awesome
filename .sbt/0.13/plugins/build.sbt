@@ -11,6 +11,8 @@ addSbtPlugin("org.wartremover"    % "sbt-wartremover"     % "1.1.1" )
 addSbtPlugin("com.github.gseitz"  % "sbt-release"         % "1.0.3" )
 addSbtPlugin("com.timushev.sbt"   % "sbt-updates"         % "0.1.10")
 addSbtPlugin("org.scalariform"    % "sbt-scalariform"     % "1.6.0")
+addSbtPlugin("fi.gekkio.sbtplugins" % "sbt-jrebel-plugin" % "0.10.0")
+addSbtPlugin("io.get-coursier" % "sbt-coursier" % "1.0.0-M14")
 
 // addSbtPlugin("io.spray" % "sbt-revolver" % "0.8.0")
 
